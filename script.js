@@ -25,6 +25,9 @@ book2[11].before(book2[14]);
 book2[12].before(book2[17]);
 book2[13].before(book2[10]);
 book2[13].before(book2[11]);
+console.log(book2[8]);
+book2[16].before(book2[8]);
+
 
 //Книга 5
 const book5 = document.querySelectorAll('li');
